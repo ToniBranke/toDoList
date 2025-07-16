@@ -18,7 +18,8 @@ public class ToDoItem
     {
         return title;
     }
-    public LocalDate getDueDate() {
+    public LocalDate getDueDate()
+    {
         return dueDate;
     }
     public String getStatus()
@@ -50,7 +51,7 @@ public class ToDoItem
     {
         this.projectName = projectName;
     }
-    public ToDoItem buildItem(String id, String title, LocalDate dueDate, String status, String projectName)
+    public static ToDoItem buildItem(String id, String title, LocalDate dueDate, String status, String projectName)
     {
         ToDoItem toDoItem = new ToDoItem();
 
