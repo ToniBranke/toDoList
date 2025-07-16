@@ -26,16 +26,30 @@ public class MarkAsDone extends Actions
             {
                 String userInput = sc.nextLine();
                 int userInputAsNum = Integer.parseInt(userInput);
-                if(userInputAsNum != 0) {
+                if(userInputAsNum != 0)
+                {
                     ToDoItem toDoItem = ToDoList.tasks.get(userInput);
-                    if (toDoItem != null) {
+                    if (toDoItem != null)
+                    {
                         return userInput;
-                    } else {
+                    }
+                    else
+                    {
                         System.out.println("There is no task woith this ID, try again.");
                     }
                 }
-
+                else
+                {
+                    return userInput;                   //??????
+                }
+            }
+            catch(Exception e)
+            {
+                System.out.println("Enter a valid ID or 0 to RETURN.");
             }
         }
     }
+
+    @Override
+    public void executeAction(String command)
 }
