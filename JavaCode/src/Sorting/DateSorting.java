@@ -77,7 +77,7 @@ public class DateSorting extends Actions
         return result;
     }
 
-    public static LocalDate pareeDate(String format, String value)
+    public static LocalDate parseDate(String format, String value)
     {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern(format);
         LocalDate localDate = LocalDate.parse(value, formatter);

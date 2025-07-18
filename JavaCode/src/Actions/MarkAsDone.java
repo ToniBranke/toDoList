@@ -52,4 +52,8 @@ public class MarkAsDone extends Actions
 
     @Override
     public void executeAction(String command)
+    {
+        ToDoList.tasks.get(command).setStatus("Done");
+        System.out.println("Status is set as Done for teh task-ID: " + command);
+    }
 }
