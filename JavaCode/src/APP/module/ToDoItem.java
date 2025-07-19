@@ -1,6 +1,6 @@
-package module;
+package APP.module;
 
-import Sorting.*;
+import APP.module.Sorting.*;
 
 import java.time.LocalDate;
 

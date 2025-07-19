@@ -1,7 +1,7 @@
-package Sorting;
+package APP.module.Sorting;
 
-import Actions.*;
-import module.*;
+import APP.module.Actions.*;
+import APP.module.*;
 import java.util.*;
 
 public class ProjectSorting extends Actions

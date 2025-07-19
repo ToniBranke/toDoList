@@ -1,8 +1,8 @@
-package Actions;
+package APP.module.Actions;
 
 import java.util.Scanner;
-import Actions.*;
-import module.*;
+
+import APP.module.*;
 
 public class MarkAsDone extends Actions
 {

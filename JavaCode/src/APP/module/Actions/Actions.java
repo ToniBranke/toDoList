@@ -1,6 +1,6 @@
-package Actions;
+package APP.module.Actions;
 
-public class Actions
+public abstract class Actions
 {
     public static final int ADD_TASK = 1;
     public static final int MARK_AS_DONE = 2;

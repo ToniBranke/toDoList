@@ -1,7 +1,7 @@
-package Actions;
+package APP.module.Actions;
 
-import module.ToDoList;
-import Sorting.*;
+import APP.module.ToDoList;
+import APP.module.Sorting.*;
 
 public class DisplayItems extends Actions
 {

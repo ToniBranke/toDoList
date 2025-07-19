@@ -1,7 +1,6 @@
-package Actions;
+package APP.module.Actions;
 
-import Actions.*;
-import module.*;
+import APP.module.*;
 import java.util.Scanner;
 
 

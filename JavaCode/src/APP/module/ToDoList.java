@@ -1,10 +1,10 @@
-package module;
+package APP.module;
 
 import java.util.*;
 
-import Actions.*;
-import Sorting.*;
-import Saving.*;
+import APP.module.Actions.*;
+import APP.module.Sorting.*;
+import APP.module.Saving.*;
 
 public class ToDoList
 {

@@ -1,8 +1,7 @@
-package Actions;
+package APP.module.Actions;
 
-import Actions.*;
-import Sorting.DateSorting;
-import module.*;
+import APP.module.Sorting.DateSorting;
+import APP.module.*;
 
 import java.util.Scanner;
 

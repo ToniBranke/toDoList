@@ -1,8 +1,8 @@
-package Saving;
+package APP.module.Saving;
 
-import Actions.*;
-import module.*;
-import Sorting.*;
+import APP.module.Actions.*;
+import APP.module.*;
+import APP.module.Sorting.*;
 
 import java.io.*;
 import java.util.Scanner;

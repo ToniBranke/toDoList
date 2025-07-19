@@ -1,7 +1,7 @@
-package Actions;
+package APP.module.Actions;
 
-import Sorting.DateSorting;
-import module.*;
+import APP.module.Sorting.DateSorting;
+import APP.module.*;
 import java.util.Scanner;
 
 public class EditTask extends Actions {
