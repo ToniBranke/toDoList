@@ -10,7 +10,8 @@ public class Actions
     public static final int SORT_TASKS_BY_DATE = 6;
     public static final int SORT_TASKS_PROJECT = 7;
     public static final int SAVE_TASKS_TO_FILE = 8;
-    public static final int EXIT = 9;
+    public static final int READ_FROM_FILE = 9;
+    public static final int EXIT = 10;
 
     public abstract void showActionsInformation();
 

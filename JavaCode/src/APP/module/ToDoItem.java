@@ -4,8 +4,6 @@ import Sorting.*;
 
 import java.time.LocalDate;
 
-// auch genannt task
-
 public class ToDoItem
 {
     private String id;
@@ -67,8 +65,8 @@ public class ToDoItem
         return toDoItem;
     }
 
-//    public String toString()
-//    {
-//
-//    }
+    public String toString()
+    {
+        return id + "," + title + "," + DateSorting.convertDateToString(dueDate, "dd-mm-yyyy") + "," + status + "," + projectName;
+    }
 }
