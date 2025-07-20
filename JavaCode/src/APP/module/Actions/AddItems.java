@@ -40,7 +40,7 @@ public class AddItems extends Actions
                         System.out.println("The date entered is invalid, please try again: ");
                     }
                 } else {
-                    System.out.println("Pleease follow the Instructions, try again: ");
+                    System.out.println("Please follow the Instructions, try again: ");
                 }
             } else {
                 return userInput;

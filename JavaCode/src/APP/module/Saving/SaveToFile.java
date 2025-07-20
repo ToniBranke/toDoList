@@ -12,6 +12,12 @@ import java.util.stream.Collectors;
 public class SaveToFile extends Actions
 {
     @Override
+    public void showActionsInformation()
+    {
+        System.out.println("\n Please enter path to file: \n \n Enter 0 to RETURN");
+    }
+
+    @Override
     public String readUserInput()
     {
         while (true)

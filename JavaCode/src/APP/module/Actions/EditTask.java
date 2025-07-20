@@ -18,12 +18,12 @@ public class EditTask extends Actions {
     @Override
     public String readUserInput() {
         while (true) {
-            System.out.println("");
-            System.out.println("Enter information");
+
+            System.out.println("\n Enter information");
             Scanner in = new Scanner(System.in);
             String userInput = in.nextLine();
 
-            if (!userInput.equals("0")) {
+            if (!userInput.equals(0)) {
                 String[] parts = userInput.split(",");
                 if (parts.length == 5) {
                     boolean dateValidationRequired = true;
@@ -39,7 +39,7 @@ public class EditTask extends Actions {
                     }
 
                     if (isDateValid) {
-                        if (ToDoList.tasks.get(parts[0] != null)) {
+                        if (ToDoList.tasks.get(parts[0]) != null) {
                             return userInput;
                         } else {
                             System.out.println("ID doesn't exist, try again: ");

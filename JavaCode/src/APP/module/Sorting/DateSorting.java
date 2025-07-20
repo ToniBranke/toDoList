@@ -46,7 +46,7 @@ public class DateSorting extends Actions
         System.out.println("Task successfully sorted. ");
     }
 
-    public static boolean isDateVAlid(String format, String value)
+    public static boolean isDateValid(String format, String value)
     {
         DateTimeFormatter formattings = DateTimeFormatter.ofPattern(format);
         try
